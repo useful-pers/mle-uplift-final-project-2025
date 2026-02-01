@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from sklift.metrics import uplift_by_percentile
+from scikit_uplift.metrics.metrics import uplift_by_percentile
 
 def custom_uplift_by_percentile(y_true, uplift, treatment, 
                                kind='line', bins=10, string_percentiles=True, 
